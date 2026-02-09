@@ -1,0 +1,79 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  background: #f5f7fb;
+  color: #1a1d29;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 64px 24px;
+}
+
+.page {
+  width: min(720px, 100%);
+  display: grid;
+  gap: 24px;
+}
+
+.intro h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 8px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: #5c637a;
+  margin-bottom: 16px;
+}
+
+.subhead {
+  color: #4b5363;
+  font-weight: 500;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.card p,
+.card li {
+  line-height: 1.6;
+  color: #2d3345;
+}
+
+.card ul {
+  list-style: disc;
+  padding-left: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 40px 16px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
