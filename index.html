@@ -3,38 +3,209 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
+    <title>William Cooper | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Merriweather:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="page">
-      <header class="intro">
-        <p class="eyebrow">In Progress</p>
-        <h1>Personal Portfolio Website</h1>
-        <p class="subhead">Clemson, SC · Founder/Developer · May 2025 - Present</p>
+      <header class="hero card">
+        <div>
+          <p class="eyebrow">Resume</p>
+          <h1>William Cooper</h1>
+          <p class="title">Software Developer</p>
+        </div>
+        <div class="contact">
+          <p> <a href="https://www.google.com/maps/place/Clemson,+SC/@34.6802706,-82.8538245,9606m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88585dda01b900cb:0xd4000ff11bdcc047!8m2!3d34.6834382!4d-82.8373654!16zL20vMDEza3g5?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">  Clemson, SC</a></p>
+          <p>
+            <a href="mailto:wwcoope@clemson.edu">wwcoope@clemson.edu</a>
+          </p>
+          <p>
+            <a href="tel:+18038478287">(803) 847-8287</a>
+          </p>
+          <div class="contact-item">
+            <span class="icon-card">
+              <img
+                class="contact-icon github-icon"
+                src="Source Images/Octicons-mark-github.svg"
+                alt="GitHub"
+              />
+            </span>
+            <a href="https://github.com/wwc2003" target="_blank" rel="noreferrer">
+              Github
+            </a>
+          </div>
+          <div class="contact-item">
+            <span class="icon-card">
+              <img
+                class="contact-icon linkedin-icon"
+                src="Source Images/linkedin.jpg"
+                alt="LinkedIn"
+              />
+            </span>
+            <a
+              href="https://www.linkedin.com/in/wwc2003/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
       </header>
 
-      <section class="card">
-        <h2>Project Summary</h2>
-        <ul>
-          <li>
-            Developing a responsive, modern portfolio website to showcase full-stack projects and
-            professional work.
-          </li>
-          <li>
-            Utilizing Next.js for SSR performance and Tailwind CSS for rapid, consistent design.
-          </li>
-          <li>Applying TypeScript for static typing and code quality assurance.</li>
-        </ul>
-      </section>
+      <div class="layout">
+        <section class="card section terminal-tree">
+          <h2><span style = "color: rgb(84, 84, 255);" >~/Professional Experience</span></h2>
+          <article class="entry">
+            <ul class="tree">
+              <li class="tree-node">
+                <span class="tree-label tree-title" style="color: rgb(19, 231, 128);">Frontend Developer — Stark RFID</span>
+                <ul>
+                  <li class="tree-node">
+                    <span class="tree-label">Location</span>
+                    <ul>
+                      <li class="tree-leaf"> &nbsp; Greenville, SC · May 2025 - Aug 2025</li>
+                    </ul>
+                  </li>
+                  <li class="tree-node">
+                    <span class="tree-label">Description</span>
+                    <ul class="tree-desc">
+                      <li class="tree-leaf">
+                        &nbsp; Developed a .NET MAUI application to test and validate customer network readiness
+                        for EXO communications across multiple environments.
+                      </li>
+                      <li class="tree-leaf">
+                        &nbsp; Implemented C#, XAML, and MVVM architecture to create a responsive and
+                        user-friendly frontend.
+                      </li>
+                      <li class="tree-leaf">
+                        &nbsp; Integrated HTTP/HTTPS testing, Pulseway API, and Seq logging to verify monitoring
+                        infrastructure.
+                      </li>
+                      <li class="tree-leaf">
+                       &nbsp; Designed UI/UX components following modern design systems and dark theme styling.
+                      </li>
+                      <li class="tree-leaf">
+                        &nbsp;Collaborated cross-functionally with engineers to ensure accurate network
+                        diagnostics and deployment readiness.
+                      </li> 
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </article>
 
-      <section class="card">
-        <h2>Next Steps</h2>
-        <p>
-          Add sections for featured projects, skills, and contact information to complete the
-          portfolio layout.
-        </p>
-      </section>
+          <h2><span style = "color: rgb(84, 84, 255);" >~/Personal Projects</span></h2>
+          <article class="entry">
+            <ul class="tree">
+              <li class="tree-node">
+                <span class="tree-label tree-title">
+                  <a href = "http://localhost:3000/" style="color: rgb(19, 231, 128);"> Personal Portfolio Website — Founder/Developer </a>
+                </span>
+                <ul>
+                  <li class="tree-node">
+                    <span class="tree-label">Location</span>
+                    <ul>
+                      <li class="tree-leaf">&nbsp;Clemson, SC · May 2025</li>
+                    </ul>
+                  </li>
+                  <li class="tree-node">
+                    <span class="tree-label">Description</span>
+                    <ul class="tree-desc">
+                      <li class="tree-leaf">
+                        &nbsp;Developed a responsive, modern portfolio website to showcase full-stack projects
+                        and professional work.
+                      </li>
+                      <li class="tree-leaf">
+                        &nbsp; Utilized Next.js for SSR performance and Tailwind CSS for rapid, consistent design.
+                      </li>
+                      <li class="tree-leaf">&nbsp; Applied TypeScript for static typing and code quality assurance.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+
+          <article class="entry">
+            <ul class="tree">
+              <li class="tree-node">
+                <span class="tree-label tree-title" style="color: rgb(19, 231, 128);"> Job Finder (In Progress) — Founder/Developer</span>
+                <ul>
+                  <li class="tree-node">
+                    <span class="tree-label">Location</span>
+                    <ul>
+                      <li class="tree-leaf">&nbsp;Clemson, SC · Sept 2025 - Present</li>
+                    </ul>
+                  </li>
+                  <li class="tree-node">
+                    <span class="tree-label">Description</span>
+                    <ul class="tree-desc">
+                      <li class="tree-leaf">&nbsp;
+                        Building a LinkedIn-style job discovery platform with a focus on personalized
+                        matching, modern UI, and scalable architecture.
+                      </li>
+                      <li class="tree-leaf">&nbsp;
+                        Developed with .NET MAUI, C#, MVVM, and CommunityToolkit.MVVM for maintainable,
+                        cross-platform design.
+                      </li>
+                      <li class="tree-leaf">&nbsp;
+                        Containerized with Docker to ensure consistent deployments across environments.
+                      </li>
+                      <li class="tree-leaf">&nbsp;
+                        Implemented RESTful APIs and backend logic in C#/.NET, handling user authentication,
+                        job listings, and search filtering.
+                      </li>
+                      <li class="tree-leaf">&nbsp;
+                        Designed frontend using XAML, Styles/StaticResources, and responsive Grid layouts.
+                      </li>
+                      <li class="tree-leaf">&nbsp;
+                        Features include search &amp; filtering, environment configuration, user auth,
+                        real-time network tests, and persistent data storage.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <aside class="card section sidebar">
+          <section class="mini code-block">
+            <h2 class="code-line"><span class="kw">void</span> <span class="fn">Education</span>() <span class="punct">{</span></h2>
+            <p class="code-line indent"><span class="comment" style="color: rgb(2, 107, 0)">// Clemson University</span></p>
+            <p class="code-line indent"><span class="string">"Bachelor of Science in Computer Science"</span><span class="punct">;</span></p>
+            <p class="code-line indent"><span class="meta">Clemson, SC · 2022 - 2026</span><span class="punct">;</span></p>
+            <p class="code-line"><span class="punct">}</span></p>
+          </section>
+
+          <section class="mini code-block">
+            <h2 class="code-line"><span class="kw">void</span> <span class="fn">TechnicalSkills</span>() <span class="punct">{</span></h2>
+            <p class="code-line indent"><span class="type">Languages</span><span class="punct">:</span> C#, C++, C, JavaScript, TypeScript, Java, Python, HTML, CSS, SQL<span class="punct">;</span></p>
+            <p class="code-line indent"><span class="type">FrameworksTools</span><span class="punct">:</span> .NET MAUI, MVVM, CommunityToolkit, Node.js, Next.js, Tailwind CSS<span class="punct">;</span></p>
+            <p class="code-line indent"><span class="type">CloudAPIs</span><span class="punct">:</span> AWS (Lambda, DynamoDB, API Gateway), Postman, RESTful APIs<span class="punct">;</span></p>
+            <p class="code-line indent"><span class="type">DeveloperTools</span><span class="punct">:</span> Visual Studio, VS Code, Git/GitHub, Postman, Figma<span class="punct">;</span></p>
+            <p class="code-line indent"><span class="type">Productivity</span><span class="punct">:</span> Excel/Sheets, Word/Docs, PowerPoint/Slides, Teams, Suite<span class="punct">;</span></p>
+            <p class="code-line"><span class="punct">}</span></p>
+          </section>
+
+          <section class="mini code-block">
+            <h2 class="code-line"><span class="kw">void</span> <span class="fn">Leadership</span>() <span class="punct">{</span></h2>
+            <p class="code-line indent"><span class="string">"Psi Upsilon Fraternity — Social Relations Chairman"</span><span class="punct">;</span></p>
+            <p class="code-line indent"><span class="meta">Clemson, SC · Jan 2024 - May 2025</span><span class="punct">;</span></p>
+            <p class="code-line indent">Oversaw a $40,000 annual budget, planning social events and partnerships. Collaborated with local vendors and organizations to strengthen community relations<span class="punct">;</span></p>
+            <p class="code-line"><span class="punct">}</span></p>
+          </section>
+        </aside>
+      </div>
     </main>
   </body>
 </html>
